@@ -31,6 +31,17 @@ public class HelloWorld
 {
     public static void Main(string[] args)
     {
+        Console.WriteLine ("My name is Carl Jerald Medenilla, I'm 18 years old, From San Francisco, Lubao, Pampanga.");
+    }
+}
+
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
        int myInt = 18;
        string myString = "Carl Jerald Medenilla";
        double myFloat = 47.00;

@@ -18,7 +18,7 @@ public class HelloWorld
         bool weighttrue = true;
         
         
-        Console.WriteLine("Hello " + name + ", you are " + age + " years old, your weight is " + weightkg + " and " + weightpounds + " pounds and this is verified " + weighttrue + ".");
+        Console.WriteLine("Hello " + name + ", you are " + age + " years old, your weight is " + weightkg.ToString("F2") + " kg and " + weightpounds + " pounds and this is verified " + weighttrue + ".");
         
     }
 
